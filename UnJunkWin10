@@ -19,7 +19,7 @@ $apps = @(
     "Microsoft.BingSports"
     "Microsoft.BingTranslator"
     "Microsoft.BingWeather"
-    #"Microsoft.FreshPaint"
+    "Microsoft.FreshPaint"
     "Microsoft.Microsoft3DViewer"
     "Microsoft.MicrosoftOfficeHub"
     "Microsoft.MicrosoftSolitaireCollection"

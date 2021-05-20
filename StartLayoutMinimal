@@ -1,5 +1,5 @@
 $localDir = 'C:\windows\temp'
-$networkDir = '\\10.30.0.4\Shares\techadmin\Win10\StartLayoutMinimal.xml'
+$networkDir = '\\10.30.0.4\Shares\techadmin\Win10\StartLayout.xml'
 New-Item -ItemType directory -Path $localDir -Force
 Copy-Item -Path $networkDir -Destination $localDir -Force
-import-startlayout -layoutpath c:\Windows\Temp\StartLayoutMinimal.xml -MountPath $env:SystemDrive\
+import-startlayout -layoutpath c:\Windows\Temp\StartLayout.xml -MountPath $env:SystemDrive\
